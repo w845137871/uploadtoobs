@@ -1,0 +1,17 @@
+
+
+
+server:
+  port: 8088
+
+app.name: upload2obs
+app.output: /logs/output/${app.name}
+logging:
+  path: ${app.output}/logs
+  level:
+    root: info
+
+obsServer:
+  endPoint: zzobs1.zj.chinamobile.com
+  AccessKeyId: D3440C7BC473DDDCFF03
+  SecretAccessKey: x3T22DFoFQ8cdaNMj8RuEOxwlNEAAAGCxHPd3Fwx
